@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Weather C3 Forecast</title>
-    <!-- Font-awesame -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!-- BoxIcons v2.1.2 -->
-    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
-    <!-- Roboto Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <!-- CSS File -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- Sidebar Section -->
-    <div class="sidebar text-center fixed" style="border-radius: 70px; width: 80px; height: 450px; margin-left:20px; margin-top:40px;">
-        <a href="#home"><i class="fa-solid fa-user" style="font-size: 30px;" ></i></a>
-        <a href="#news"><i class="fa-solid fa-bell" style="font-size: 30px;"></i></a>
-        <a href="#contact"><i class="fa-solid fa-cloud-sun" style="font-size: 30px;"></i></a>
-        <a href="#about"><i class="fa-solid fa-location-dot" style="font-size: 30px;"></i></a>
-        <a href="#about"><i class="fa-solid fa-gear" style="font-size: 30px;"></i></a>
-        <a href="#about" style="margin-top:45px ;"><i class="fa-solid fa-right-from-bracket" style="font-size: 30px;"></i></a>
-      </div>
-      
-      <div class="content navbar">
-        <ul>
-          <i class="fa-solid fa-user" style="font-size: 30px; color:white; padding-top:50px; margin-top: 6px;" > <span style="font-size:20px;">HI ALI RAZA</span> </i>
-            <li style="float:right; margin-left:10px"><a class="active" href="#search" style="border-radius: 70px; background-color: #413B5B; height: 35px; margin-top: 53px;">Search</a></li>
-            <li style="float:right; margin-left:10px"><select class="form-select"  id="sel1" name="sellist1"style="border-radius: 10px; color: white; margin-top: 53px;
-                height: 35px; background-color: #413B5B;">
-                <option>ENG</option>
-                <option>URDU</option>
-              </select></li>
-            <li style="float:right; margin-left:10px" ><a href="#search" style="height: 35px; border-radius: 70px; background-color: #413B5B; margin-top: 53px;"><i class="fa-solid fa-magnifying-glass" style="line-height: 8px;"></i> Search Your City</a></li>
-          </ul>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-8">
-            <h1>HI OWAIS</h1>
-          </div>
-          <div class="col-4"></div>
-        </div>
-      </div>
 
-    <!-- JS File -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+<head>
+  <title>Weather C3 Forecast</title>
+  <!-- Font-awesame -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- BoxIcons v2.1.2 -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+  <!-- Roboto Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- CSS File -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Sidebar Section -->
+  <div class="sidebar text-center fixed"
+    style="border-radius: 70px; width: 80px; height: 450px; margin-left:20px; margin-top:40px;">
+    <a href="#home"><i class="fa-solid fa-user" style="font-size: 30px;"></i></a>
+    <a href="#news"><i class="fa-solid fa-bell" style="font-size: 30px;"></i></a>
+    <a href="#contact"><i class="fa-solid fa-cloud-sun" style="font-size: 30px;"></i></a>
+    <a href="#about"><i class="fa-solid fa-location-dot" style="font-size: 30px;"></i></a>
+    <a href="#about"><i class="fa-solid fa-gear" style="font-size: 30px;"></i></a>
+    <a href="#about" style="margin-top:45px ;"><i class="fa-solid fa-right-from-bracket"
+        style="font-size: 30px;"></i></a>
+  </div>
+
+  <div class="content navbar">
+    <ul>
+      <i class="fa-solid fa-circle-user" style="font-size: 30px; color:white; padding-top:50px; margin-top: 6px;"><span
+          style="font-size:20px;margin-left: 5px;">HI ALI RAZA</span></i>
+      <li style="float:right; margin-left:10px;"><a href="#search"
+          style="border-radius: 70px; background-color: #413B5B; height: 35px; margin-top: 53px;text-decoration: none; list-style-type: none;">Search</a>
+      </li>
+      <li style="float:right; margin-left:10px"><select class="form-select" id="sel1" name="sellist1" style="border-radius: 10px; color: white; margin-top: 53px;
+                height: 35px; background-color: #413B5B;">
+          <option>ENG</option>
+          <option>URDU</option>
+        </select></li>
+      <li style="float:right; margin-left:10px"><a href="#search"
+          style="height: 35px; border-radius: 70px; background-color: #413B5B; margin-top: 53px;text-decoration: none; list-style-type: none;"><i
+            class="fa-solid fa-magnifying-glass" style="line-height: 8px;"></i> Search Your City</a></li>
+    </ul>
+  </div>
+  
+  <!-- JS File -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 
 </body>
 
