@@ -3,6 +3,11 @@
 
 <head>
   <title>Weather C3 Forecast</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;1,100;1,300&display=swap"
+    rel="stylesheet">
   <!-- Font-awesame -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -20,36 +25,40 @@
 </head>
 
 <body>
+  <!-- Background Video -->
+  <video autoplay muted loop id="myVideo">
+    <source src="bg-video.mp4" type="video/mp4">
+  </video>
   <!-- Sidebar Section -->
   <div class="sidebar text-center fixed"
     style="border-radius: 70px; width: 80px; height: 450px; margin-left:20px; margin-top:40px;">
-    <a href="#home"><i class="fa-solid fa-user" style="font-size: 30px;"></i></a>
-    <a href="#news"><i class="fa-solid fa-bell" style="font-size: 30px;"></i></a>
-    <a href="#contact"><i class="fa-solid fa-cloud-sun" style="font-size: 30px;"></i></a>
-    <a href="#about"><i class="fa-solid fa-location-dot" style="font-size: 30px;"></i></a>
-    <a href="#about"><i class="fa-solid fa-gear" style="font-size: 30px;"></i></a>
-    <a href="#about" style="margin-top:45px ;"><i class="fa-solid fa-right-from-bracket"
-        style="font-size: 30px;"></i></a>
+    <a href="user.html"><i class="fa-solid fa-user" style="font-size: 25px;"></i></a>
+    <a href="alert.html"><i class="fa-solid fa-bell" style="font-size: 25px;"></i></a>
+    <a href="thunder.html"><i class="fa-solid fa-cloud-sun" style="font-size: 25px;"></i></a>
+    <a href="map.html"><i class="fa-solid fa-location-dot" style="font-size: 25px;"></i></a>
+    <a href="setting.html"><i class="fa-solid fa-gear" style="font-size: 25px;"></i></a>
+    <a href="logout.html" style="margin-top:45px ;"><i class="fa-solid fa-right-from-bracket"
+        style="font-size: 25px; margin-top: 30px;"></i></a>
   </div>
 
   <div class="content navbar">
     <ul>
       <i class="fa-solid fa-circle-user" style="font-size: 30px; color:white; padding-top:50px; margin-top: 6px;"><span
-          style="font-size:20px;margin-left: 5px;">HI ALI RAZA</span></i>
+          style="font-size:20px;margin-left: 5px; font-family: 'Fira Sans', sans-serif;">HI ALI RAZA</span></i>
       <li style="float:right; margin-left:10px;"><a href="#search"
-          style="border-radius: 70px; background-color: #413B5B; height: 35px; margin-top: 53px;text-decoration: none; list-style-type: none;">Search</a>
+          style="border-radius: 70px; background-color: #413b5b52; height: 35px; margin-top: 53px;text-decoration: none; list-style-type: none;">Search</a>
       </li>
       <li style="float:right; margin-left:10px"><select class="form-select" id="sel1" name="sellist1" style="border-radius: 10px; color: white; margin-top: 53px;
-                height: 35px; background-color: #413B5B;">
+                height: 35px; background-color: #413b5b52;border: none;">
           <option>ENG</option>
           <option>URDU</option>
         </select></li>
       <li style="float:right; margin-left:10px"><a href="#search"
-          style="height: 35px; border-radius: 70px; background-color: #413B5B; margin-top: 53px;text-decoration: none; list-style-type: none;"><i
+          style="height: 35px; border-radius: 70px; background-color: #413b5b52; margin-top: 53px;text-decoration: none; list-style-type: none;"><i
             class="fa-solid fa-magnifying-glass" style="line-height: 8px;"></i> Search Your City</a></li>
     </ul>
   </div>
-  
+
   <!-- JS File -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
