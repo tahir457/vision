@@ -85,3 +85,10 @@ li a:hover {
 ::placeholder {
   color: white;
 }
+
+.graph{
+  background-image: url(/images/weather\ forecast\ graph.png);
+  background-size: cover;
+  opacity: 0.5;
+  
+}
