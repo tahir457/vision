@@ -93,3 +93,88 @@ li a:hover {
   opacity: 0.5;
   
 }
+
+/* Weather Alert */
+
+/* alert left-section */
+
+.back-alert{
+  background-image: url('../images/alert.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+ 
+  background-size: cover;
+  height: 100%;
+  color: black;
+  font-weight: bolder;
+}
+
+.alert-search{
+
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+  width: 65%;
+   margin-left: 40px;
+}
+
+.alert-safe-dangerous{
+  border: none;
+   background-color: transparent;
+}
+
+.alert-city{
+  text-align: left; 
+  margin-left: 30px;
+}
+
+.alert-city-p{
+  width: 90%;
+}
+
+/* alert right-section */
+
+.alert-right-section{
+  margin-top: 30px;
+  padding-left: 50px;
+}
+
+.alert-right-top-p{
+  width: 10%;
+   font-weight: bold;
+}
+
+.alert-right-weather-forecast{
+  width: 50%;
+}
+
+.alert-right-weather-forecast-p{
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.alert-right-card{
+  border: none;
+  width: 38rem;
+}
+
+.alert-right-card-button{
+  color: black;
+   border-radius: 20px;
+    background-color: gray;
+     font-weight: bold;
+}
+
+.alert-right-temperature{
+  margin-left: 10px;
+}
+
+.alert-right-temperature-p1{
+  font-size: 60px;
+}
+
+.alert-right-temperature-p2{
+  font-weight: bold;
+   border-bottom: 1px solid black;
+   width: 70%; 
+}
