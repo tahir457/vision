@@ -87,9 +87,11 @@ li a:hover {
   color: white;
 }
 
-.graph{
+.graph {
   background-image: url(/images/weather\ forecast\ graph.png);
   background-size: cover;
   opacity: 0.5;
-  
+
 }
+
+/* Login Page Start */
