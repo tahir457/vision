@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Weather C3 Forecast</title>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <!-- Font-awesame -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- BoxIcons v2.1.2 -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    <!-- Roboto Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="back-alert">
+
+   
+
+    <!-- left-section -->
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="sidebar text-center fixed "
+            style="border-radius: 70px; width: 80px; height: 580px; margin-left:20px; margin-top:40px;">
+            <a href="index.html"><i class="fa-solid fa-home" style="font-size: 25px;"></i></a>
+            <a href="alert.html"><i class="fa-solid fa-bell" style="font-size: 25px;"></i></a>
+            <a href="thunder.html"><i class="fa-solid fa-cloud-sun" style="font-size: 25px;"></i></a>
+            <a href="map.html"><i class="fa-solid fa-location-dot" style="font-size: 25px;"></i></a>
+            <a href="setting.html"><i class="fa-solid fa-gear" style="font-size: 25px;"></i></a>
+            <a href="logout.html" style="margin-top:45px ;"><i class="fa-solid fa-right-from-bracket"
+                style="font-size: 25px; margin-top: 160px;"></i></a>
+          </div>
+
+            <div style="border-right: 2px solid grey; border-bottom: 2px solid gray; margin-left: 100px;" class="col">
+
+                <div class="mt-5 text-center">
+
+                    <div class="">
+                        <h5 class="p-2 alert-search"> <i style="font-size: 25px;"
+                                class="fa-solid fa-temperature-half p-2"> </i>
+                            Oklahama City, USA
+                            <i class="fa-solid fa-magnifying-glass p-2"></i>
+                        </h5>
+
+                        <br><br><br>
+
+                        <div>
+                            <div>
+                                <p style="font-size: 60px;">20&deg; <span style="font-size: 40px;"> +/-</span> 3</p>
+
+                            </div>
+                            <div>
+                                <p style="font-size: 30px;">9.8% <span style="font-size: 15px;"> wind: WSM 6 mph</span>
+                                </p>
+                            </div>
+
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="col-6 ">
+                                    <div class="card  alert-safe-dangerous">
+                                        <div class="card-body">
+                                            <p class="card-title">safe </p>
+
+                                        </div>
+                                        <li class="card-title">0.1%-0.9%</li>
+                                        <li class="card-title">0.9%-11%</li>
+
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card  alert-safe-dangerous">
+                                        <div class="card-body">
+                                            <p class="card-title">dangerous</p>
+
+                                        </div>
+                                        <li class="card-title">12%-38%</li>
+                                        <li class="card-title">39%-90%</li>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <br>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="alert-city" class="col-12">
+                                    <div>
+
+                                        <h3>Oklahoma City</h3>
+                                    </div>
+                                    <div>
+                                        <p class="alert-city-p">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit. Incidunt aliquam
+                                            excepturi saepe earum voluptatem,
+                                            consectetur adipisicing elit. Incidunt aliquam excepturi saepe earum
+                                            voluptatem,
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end left-section -->
+
+            <!-- right-section -->
+
+            <div class="col-8 alert-right-section">
+                <div>
+                    <h4 class="alert-right-top-p">National Weather</h4>
+                </div>
+                <br><br><br>
+
+                <div>
+                    <h4 class="alert-right-weather-forecast"> Weather Forecast</h4>
+                </div>
+                <div>
+                    <h1 class="alert-right-weather-forecast-p">Storm</h1>
+                    <h1 class="alert-right-weather-forecast-p">With Heavy Rain</h1>
+
+                </div>
+
+                <br><br>
+
+                <div class="card bg-transparent alert-right-card">
+
+                    <div class="card-body">
+                        <h5 style="font-weight: bold;" class="card-title"> <i class="fa-solid fa-cloud"></i> USA,
+                            Friday, Jan3, 2023, 8:45AM</h5>
+                        <br>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.
+                            Some quick example text to build on the card title and make up the bulk of the card's
+                            content.
+                        </p>
+                        <br><br><br>
+                        <a href="#" class="btn alert-right-card-button">SEE DETAILS</a>
+                    </div>
+                </div>
+                <BR>
+                <div class="row alert-right-temperature">
+                    <div class="col">
+                        <div>
+                            <p style=" font-weight: bold;">high 23.0&deg;C</p>
+                            <p style=" font-weight: bold;">low 18&deg;C</p>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <p style=" font-weight: bold;">high 23.0&deg;C</p>
+                            <p style=" font-weight: bold;">low 18&deg;C</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div>
+                            <p style=" font-weight: bold;">high 23.0&deg;C</p>
+                            <p style=" font-weight: bold;">low 18&deg;C</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div>
+                            <p style=" font-weight: bold;">high 23.0&deg;C</p>
+                            <p style=" font-weight: bold;">low 18&deg;C</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div>
+                            <p style=" font-weight: bold;">high 23.0&deg;C</p>
+                            <p style=" font-weight: bold;">low 18*C</p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <br><br>
+
+                <div class="row alert-right-temperature">
+                    <div class="col">
+                        <div>
+                            <p class="alert-right-temperature-p1"> 20&deg;</p>
+                            <p class="alert-right-temperature-p2">Washington DC</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div>
+                            <p class="alert-right-temperature-p1"> 20&deg;</p>
+                            <p class="alert-right-temperature-p2">Washington DC</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div>
+                            <p class="alert-right-temperature-p1"> 20&deg;</p>
+                            <p class="alert-right-temperature-p2">Washington DC</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div>
+                            <p class="alert-right-temperature-p1"> 20&deg;</p>
+                            <p class="alert-right-temperature-p2">Washington DC</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div>
+                            <p class="alert-right-temperature-p1"> 20&deg;</p>
+                            <p class="alert-right-temperature-p2">Washington DC</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div>
+                            <p class="alert-right-temperature-p1"> 20&deg;</p>
+                            <p class="alert-right-temperature-p2">Washington DC</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end right-section -->
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
