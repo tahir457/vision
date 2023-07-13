@@ -105,15 +105,13 @@ li a:hover {
   background-repeat: no-repeat;
   width: 100%;
   background-position: center;
-
   background-size: cover;
   height: 100%;
-  color: black;
+  color: white;
   font-weight: bolder;
 }
 
 .alert-search {
-
   padding-top: 10px;
   border-bottom: 1px solid black;
   width: 65%;
