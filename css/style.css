@@ -194,12 +194,12 @@ label{
 /* alert left-section */
 
 .back-alert {
-  background-image: url('../images/alert.jpg');
+  background-image: url('../images/alert3.jpg');
   background-repeat: no-repeat;
   width: 100%;
   background-position: center;
   background-size: cover;
-  height: 100%;
+  height: auto;
   color: white;
   font-weight: bolder;
 }
@@ -207,7 +207,7 @@ label{
 .alert-search {
   padding-top: 10px;
   border-bottom: 1px solid black;
-  width: 65%;
+  width: 75%;
   margin-left: 40px;
 }
 
@@ -229,7 +229,7 @@ label{
 
 .alert-right-section {
   margin-top: 30px;
-  padding-left: 50px;
+  padding-left: 60px;
 }
 
 .alert-right-top-p {
@@ -269,5 +269,5 @@ label{
 .alert-right-temperature-p2 {
   font-weight: bold;
   border-bottom: 1px solid black;
-  width: 80%;
+  width: 100%;
 }
