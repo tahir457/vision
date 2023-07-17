@@ -33,7 +33,7 @@ video {
 }
 
 div.content {
-  margin-left: 150px;
+  margin-left: 140px;
   padding: 1px 35px 0px 0px;
   height: 1000px;
 }
@@ -189,6 +189,32 @@ label{
   text-shadow: 0 0 .2rem black;  
 }
 
+.back-index {
+  background-image: url('../images/alert.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 2000px;
+  color: white;
+  font-weight: bolder;
+  
+}
+
+
+.back-thunder {
+  background-image: url('../images/alert2.jpg');
+  background-repeat: no-repeat;
+  /* width: 80%; */
+  background-position: center;
+  background-size: cover;
+  height: 2000px;
+  color: white;
+  font-weight: bolder;
+  opacity: 5px;
+}
+
+
 /* Weather Alert */
 
 /* alert left-section */
@@ -196,13 +222,14 @@ label{
 .back-alert {
   background-image: url('../images/alert3.jpg');
   background-repeat: no-repeat;
-  width: 100%;
+  /* width: 100%; */
   background-position: center;
   background-size: cover;
   height: auto;
   color: white;
   font-weight: bolder;
 }
+
 
 .login__input {
   border: none;
@@ -223,12 +250,49 @@ label{
 }
 
 .login_search{
-  background-color: grey;
-   color: black; font-weight:500;
+  background-color: #0096FF;
+   color: white; font-weight:500;
     border-radius: 25px; 
     font-size: 15px;
     width: 70px;
 }
+
+.login__input_thunder{
+  border: none;
+  border-bottom: 2px solid #D1D1D4;
+  background: none;
+  padding: 10px;
+  /* padding-left: 24px; */
+  font-weight: 700;
+  width: 60%;
+  transition: .2s;
+}
+
+.login__input_thunder:active,
+.login__input_thunder:focus,
+.login__input_thunder:hover {
+  outline: none;
+  border-bottom-color: gray;
+}
+
+.login_search_thunder{
+  background-color: #0096FF;
+   color: white; 
+   font-weight:500;
+    border-radius: 25px; 
+    font-size: 15px;
+    width: 70px;
+}
+.login_search_thunder:hover{
+  background-color: transparent;
+   color: white; 
+   font-weight:500;
+    border-radius: 25px; 
+    font-size: 15px;
+    width: 70px;
+}
+
+
 .alert-search {
   padding-top: 10px;
   border-bottom: 1px solid black;
@@ -277,9 +341,9 @@ label{
 }
 
 .alert-right-card-button {
-  color: black;
+  color: white;
   border-radius: 20px;
-  background-color: gray;
+  background-color: #0096FF;
   font-weight: bold;
 }
 
